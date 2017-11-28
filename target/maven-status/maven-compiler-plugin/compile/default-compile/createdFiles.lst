@@ -1,0 +1,3 @@
+com\knightly\hadoop\WordCountApp$MyMapper.class
+com\knightly\hadoop\WordCountApp$MyReducer.class
+com\knightly\hadoop\WordCountApp.class
