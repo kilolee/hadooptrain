@@ -1,4 +1,4 @@
-package com.knightly.hadoop.hdfs;
+package com.knightly.hadoop.mapreduce.hdfs;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;

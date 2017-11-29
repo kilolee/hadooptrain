@@ -1,4 +1,4 @@
-package com.knightly.hadoop.project;
+package com.knightly.hadoop.mapreduce.project;
 
 import com.kumkee.userAgent.UserAgent;
 import com.kumkee.userAgent.UserAgentParser;
