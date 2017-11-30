@@ -11,7 +11,7 @@
     <context:property-placeholder location="application.properties"/>
 
     <hdp:configuration id="hadoopConfiguration">
-        fs.defaultFS=hdfs://centos:8020
+        fs.defaultFS=${spring.hadoop.fsUri}
     </hdp:configuration>
 
     <hdp:file-system id="fileSystem" configuration-ref="hadoopConfiguration" user="root"/>
