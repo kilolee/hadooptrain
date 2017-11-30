@@ -26,7 +26,7 @@ public class UserAgentTest {
      */
     @Test
     public void testReadFile () throws Exception{
-        String path = "G:\\workspace-for-IntelliJ\\hadooptrain\\resources\\10000_access.log";
+        String path = "G:\\workspace-for-IntelliJ\\hadooptrain\\src\\test\\resources\\10000_access.log";
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(path))));
 
@@ -77,8 +77,6 @@ public class UserAgentTest {
         String value = "117.35.88.11 - - [10/Nov/2016:00:01:02 +0800] \"GET /article/ajaxcourserecommends?id=124 HTTP/1.1\" 200 2345 \"www.imooc.com\" \"http://www.imooc.com/code/1852\" - \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36\" \"-\" 10.100.136.65:80 200 0.616 0.616\n";
         int index = getCharacterPosition(value,"\"",7);
         System.out.println(index);
-
-
     }
 
     /**
